@@ -1,0 +1,10 @@
+{ "questions" : [
+    { "text" : "What enables you to use your account after you lost your device?",
+      "answers" : [
+         { "text": "My password."},
+         { "text": "A call to the support hotline that will ask me some personal questions."},
+         { "text": "Keystore file and Password" , "correct":true },
+         { "text": "Profanity."}
+       ]
+    }
+]}
