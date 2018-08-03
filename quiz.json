@@ -6,5 +6,13 @@
          { "text": "Keystore file and Password" , "correct":true },
          { "text": "Profanity."}
        ]
+    },
+    { "text" : "How many words from your 12 word mnemonic do you need to access your account?",
+      "answers" : [
+         { "text": "6"},
+         { "text": "7"},
+         { "text": "9"},
+         { "text": "12" , "correct":true }
+       ]
     }
 ]}
