@@ -1,18 +1,76 @@
-{ "questions" : [
-    { "text" : "What enables you to use your account after you lost your device?",
-      "answers" : [
-         { "text": "My password."},
-         { "text": "A call to the support hotline that will ask me some personal questions."},
-         { "text": "Keystore file and Password" , "correct":true },
-         { "text": "Profanity."}
-       ]
-    },
-    { "text" : "How many words from your 12 word mnemonic do you need to access your account?",
-      "answers" : [
-         { "text": "6"},
-         { "text": "7"},
-         { "text": "9"},
-         { "text": "12" , "correct":true }
-       ]
-    }
-]}
+{  
+   "questions":[  
+      {  
+         "text":"What enables you to use your account after you lost your device?",
+         "answers":[  
+            {  
+               "text":"My password."
+            },
+            {  
+               "text":"A call to the support hotline that will ask me some personal questions."
+            },
+            {  
+               "text":"Keystore file and Password",
+               "correct":true
+            },
+            {  
+               "text":"Profanity."
+            }
+         ]
+      },
+      {  
+         "text":"How many words from your 12 word mnemonic do you need to access your account?",
+         "answers":[  
+            {  
+               "text":"6"
+            },
+            {  
+               "text":"7"
+            },
+            {  
+               "text":"9"
+            },
+            {  
+               "text":"12",
+               "correct":true
+            }
+         ]
+      },
+      {  
+         "text":"Who can send funds from your wallet?",
+         "answers":[  
+            {  
+               "text":"The wallet company"
+            },
+            {  
+               "text":"The Ethereum Foundation"
+            },
+            {  
+               "text":"The private key holder",
+               "correct":true
+            },
+            {  
+               "text":"The NSA"
+            }
+         ]
+      },
+      {  
+         "text":"Who can see your wallet's funds and transactions?",
+         "answers":[  
+            {  
+               "text":"Only the private key holder"
+            },
+            {  
+               "text":"Only you"
+            },
+            {  
+               "text":"Anyone you sent a transaction to"
+            },
+            {  
+               "text":"Anyone with access to the blockchain",
+               "correct":true
+            }
+         ]
+      }
+   ]
+}
